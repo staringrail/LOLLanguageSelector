@@ -1,4 +1,4 @@
-﻿# LOLLanguageSelector
+﻿# League of Legends Language Selector
 
 Small C# program to select what language locale you want to play League of Legends on. This will change the in game text and voices to your desired locale.
 
