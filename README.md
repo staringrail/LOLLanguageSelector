@@ -1,6 +1,6 @@
 ﻿# League of Legends Language Selector
  [![GitHub release](https://img.shields.io/github/release/railgun1v9/LOLLanguageSelector.svg)](https://GitHub.com/railgun1v9/LOLLanguageSelector/releases/)
- [![GitHub commits](https://img.shields.io/github/commits-since/railgun1v9/LOLLanguageSelector/v1.0.0.svg)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+ [![GitHub commits](https://img.shields.io/github/commits-since/railgun1v9/LOLLanguageSelector/v1.0.svg)](https://GitHub.com/Naereen/StrapDown.js/commit/)
  [![Github all releases](https://img.shields.io/github/downloads/railgun1v9/LOLLanguageSelector/total.svg)](https://GitHub.com/railgun1v9/LOLLanguageSelector/releases/)
 
 Small C# program to select what language locale you want to play League of Legends on. 
