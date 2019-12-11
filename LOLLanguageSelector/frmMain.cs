@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace LOLLanguageSelector
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
             string strDefaultPath = "C:/Riot Games/League of Legends/LeagueClient.exe";
@@ -61,6 +61,18 @@ namespace LOLLanguageSelector
         private void btnLaunch_Click(object sender, EventArgs e)
         {
            System.Diagnostics.Process.Start(txtFilePath.Text, "--locale=" + cmbLanguage.SelectedValue.ToString());
+            MessageBox.Show("Locale settings were applied! Wait for League of Legends to initialize with the new locale.");
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAbout frmAbout1 = new frmAbout();
+            frmAbout1.ShowDialog();
         }
     }
 }
