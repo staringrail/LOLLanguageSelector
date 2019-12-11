@@ -34,7 +34,7 @@ namespace LOLLanguageSelector
             items.Add("Russian (Русский)", "ru_RU");
             items.Add("Portuguese (Português)", "pt_BR");
             items.Add("Turkish (Türkçe)", "tr_TR");
-            items.Add("Dutch (Deutsch)", "de_DE");
+            items.Add("German (Deutsch)", "de_DE");
             items.Add("Spanish (Español)", "es_ES");
             items.Add("French (Français)", "fr_FR");
             items.Add("Italian (Italiano)", "it_IT");
