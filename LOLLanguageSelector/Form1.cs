@@ -40,7 +40,6 @@ namespace LOLLanguageSelector
             items.Add("Italian (Italiano)", "it_IT");
             items.Add("Czech (Čeština)", "cs_CZ");
 
-
             cmbLanguage.DataSource = new BindingSource(items, null);
         }
 
@@ -53,10 +52,8 @@ namespace LOLLanguageSelector
             openFileDialog1.Filter = "Exe Files (.exe)|*.exe|All Files (*.*)|*.*";
             openFileDialog1.FilterIndex = 1;
 
-            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
-                
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK) { 
                 // Check if this is valid executable
-
                 txtFilePath.Text = openFileDialog1.FileName;
             }
         }
