@@ -5,7 +5,7 @@ Small C# program to select what language locale you want to play League of Legen
 
 1. Download the latest version from the [Releases](https://github.com/railgun1v9/LOLLanguageSelector/releases) page.
 2. Run LOLLanguageSelector.exe.
-3. Ensure that the Instatallion Directory is correctly pointing to your League of Legends installation's LeagueClient.exe.
+3. Ensure that the Installation Directory is correctly pointing to your League of Legends installation's LeagueClient.exe.
 4. Select the language/locale you would like to play in.
 5. Press Launch and enjoy!
 
