@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnBrowse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtFilePath = new System.Windows.Forms.TextBox();
@@ -127,6 +128,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "LoL Language Selector";
             this.groupBox1.ResumeLayout(false);
