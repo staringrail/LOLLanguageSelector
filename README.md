@@ -14,3 +14,4 @@ Small C# program to select what language locale you want to play League of Legen
 
 ![image](https://user-images.githubusercontent.com/44673950/70661983-5dc01280-1c33-11ea-9eb8-348245a31cd4.png)
 ![image](https://user-images.githubusercontent.com/44673950/70661549-83005100-1c32-11ea-8b7e-86671b1594fc.png)
+![image](https://user-images.githubusercontent.com/44673950/70817668-00959f80-1da0-11ea-82ce-046253f3945c.png)
