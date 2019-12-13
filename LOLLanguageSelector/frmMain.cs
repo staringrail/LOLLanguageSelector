@@ -31,14 +31,21 @@ namespace LOLLanguageSelector
             items.Add("English (US)", "en_US");
             items.Add("Japanese (日本語)", "ja_JP");
             items.Add("Korean (한글)", "ko_KR");
+            items.Add("Chinese (汉字)", "zh_CN");
             items.Add("Russian (Русский)", "ru_RU");
             items.Add("Portuguese (Português)", "pt_BR");
             items.Add("Turkish (Türkçe)", "tr_TR");
+            items.Add("Spanish (Latin)", "es_MX");
+            items.Add("Spanish (Castilian)", "es_ES");
             items.Add("German (Deutsch)", "de_DE");
-            items.Add("Spanish (Español)", "es_ES");
+            items.Add("Greek (Ελληνικά)", "el_GR");
+            items.Add("Hungarian (Magyar)", "hu_HU");
+            items.Add("Polish (Polski)", "pl_PL");
+            items.Add("Romanian (Română)", "ro_RO"); 
             items.Add("French (Français)", "fr_FR");
             items.Add("Italian (Italiano)", "it_IT");
             items.Add("Czech (Čeština)", "cs_CZ");
+            items.Add("English (Australia)", "en_AU");
 
             cmbLanguage.DataSource = new BindingSource(items, null);
         }
